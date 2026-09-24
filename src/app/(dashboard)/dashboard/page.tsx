@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { getUserProgressStats, getNextAvailableLesson } from "@/lib/progress";
 import Link from "next/link";
+import { WhatsAppSupportCard } from "@/components/whatsapp-support-card";
 import {
   BookOpen,
   Target,
@@ -72,6 +73,8 @@ export default async function DashboardPage() {
           Continuá tu camino en Inteligencia Artificial
         </p>
       </div>
+
+      <WhatsAppSupportCard />
 
       {!hasEnrollment ? (
         <div className="card text-center py-12">
