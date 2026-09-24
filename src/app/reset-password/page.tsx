@@ -1,10 +1,10 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, Suspense, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
-export default function ResetPasswordPage() {
+function ResetPasswordForm() {
   const searchParams = useSearchParams();
   const token = searchParams.get("token");
 
@@ -16,7 +16,6 @@ export default function ResetPasswordPage() {
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-
     setMessage("");
     setError("");
 
@@ -43,10 +42,7 @@ export default function ResetPasswordPage() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          token,
-          password,
-        }),
+        body: JSON.stringify({ token, password }),
       });
 
       const data = await response.json();
@@ -126,9 +122,7 @@ export default function ResetPasswordPage() {
                 required
                 minLength={8}
                 value={confirmPassword}
-                onChange={(event) =>
-                  setConfirmPassword(event.target.value)
-                }
+                onChange={(event) => setConfirmPassword(event.target.value)}
                 placeholder="Repetí tu contraseña"
                 className="w-full rounded-xl border bg-background px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
               />
@@ -154,5 +148,19 @@ export default function ResetPasswordPage() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function ResetPasswordPage() {
+  return (
+    <Suspense
+      fallback={
+        <main className="flex min-h-screen items-center justify-center">
+          <p>Cargando...</p>
+        </main>
+      }
+    >
+      <ResetPasswordForm />
+    </Suspense>
   );
 }

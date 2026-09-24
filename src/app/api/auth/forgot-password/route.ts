@@ -3,7 +3,7 @@ import { prisma } from "@/lib/prisma";
 import { randomBytes, createHash } from "crypto";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 export async function POST(request: Request) {
   try {
@@ -52,6 +52,9 @@ export async function POST(request: Request) {
 
     const resetUrl = `${baseUrl}/reset-password?token=${token}`;
 
+    if (!resend) {
+      throw new Error("RESEND_API_KEY no está configurada");
+    }
     await resend.emails.send({
       from:
         process.env.RESEND_FROM_EMAIL ||
