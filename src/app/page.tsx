@@ -24,33 +24,39 @@ import { MarketingHeader } from "@/components/marketing-header";
 const benefits = [
   {
     icon: Brain,
-    title: "IA desde cero",
-    description: "Empezá sin conocimientos previos y terminá dominando asistentes de IA de forma profesional.",
+    title: "Usar IA correctamente",
+    description:
+      "Aprendé a trabajar con asistentes de IA, escribir mejores instrucciones y obtener resultados útiles y profesionales.",
   },
   {
     icon: Zap,
-    title: "Productividad",
-    description: "Automatizá tareas, organizá información y multiplicá tu rendimiento diario con IA.",
+    title: "Trabajar mejor con IA",
+    description:
+      "Aplicá IA para investigar, organizar información, crear documentos y resolver tareas de forma más eficiente.",
   },
   {
-    icon: PenTool,
-    title: "Contenido",
-    description: "Creá textos, imágenes y materiales profesionales en minutos con flujos de trabajo reales.",
+    icon: Sparkles,
+    title: "Crear contenido",
+    description:
+      "Generá textos, imágenes y materiales profesionales mediante procesos claros y repetibles.",
   },
   {
     icon: TrendingUp,
-    title: "Marketing",
-    description: "Diseñá campañas, copy y estrategias de comunicación impulsadas por inteligencia artificial.",
+    title: "Marketing y comunicación",
+    description:
+      "Creá campañas, copy, ideas y estrategias de comunicación utilizando IA como herramienta de trabajo.",
   },
   {
     icon: Briefcase,
-    title: "Negocios",
-    description: "Aplicá IA a tu trabajo, emprendimiento o empresa para tomar mejores decisiones.",
+    title: "Aplicar IA a tu profesión",
+    description:
+      "Llevá estas habilidades a tu trabajo, emprendimiento, servicios para clientes o proyectos profesionales.",
   },
   {
     icon: Settings,
-    title: "Automatización",
-    description: "Diseñá procesos y soluciones automatizadas que ahorran horas de trabajo manual.",
+    title: "Crear soluciones",
+    description:
+      "Diseñá sistemas, automatizaciones y proyectos que integren distintas herramientas de inteligencia artificial.",
   },
 ];
 
@@ -58,11 +64,8 @@ const steps = [
   "Creá tu cuenta",
   "Elegí tu plan",
   "Aprendé paso a paso",
-  "Completá los ejercicios",
-  "Desbloqueá herramientas",
-  "Realizá los proyectos",
-  "Completá el programa",
-  "Obtené tu certificado",
+  "Aplicá lo aprendido en ejercicios y proyectos",
+  "Completá el programa y obtené tu certificado",
 ];
 
 const modules = [
@@ -119,7 +122,7 @@ export default function HomePage() {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm text-primary mb-8">
                 <Sparkles className="h-4 w-4" />
-                Plataforma premium de formación en IA
+                Habilidades profesionales con Inteligencia Artificial
               </div>
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
                 Aprendé Inteligencia
@@ -129,16 +132,16 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl lg:mx-0">
-                72 clases. 6 proyectos. Herramientas reales.
+                Aprendé a usar la IA correctamente, crear con ella y aplicar estas habilidades en tu trabajo, emprendimiento o proyectos profesionales.
                 <br className="hidden sm:block" />
-                Aprendizaje práctico desde cero hasta resultados profesionales.
+                72 clases · 6 proyectos · herramientas desbloqueables.
               </p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
                 <Link
                   href="/register"
                   className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-3.5 text-base font-semibold text-primary-foreground hover:bg-primary/90 transition-all glow-primary"
                 >
-                  Comenzar ahora
+                  Quiero aprender IA
                   <ArrowRight className="h-5 w-5" />
                 </Link>
                 <Link
@@ -406,6 +409,12 @@ export default function HomePage() {
               <div className="mt-4">
                 <span className="text-4xl font-bold">$350.000</span>
                 <span className="text-muted-foreground ml-1">ARS</span>
+              </div>
+              <div className="mt-2 text-sm text-muted-foreground">
+                6 módulos por separado: <span className="line-through">$450.000 ARS</span>
+              </div>
+              <div className="mt-1 text-sm font-semibold text-primary">
+                Ahorrás $100.000 ARS con el programa completo.
               </div>
               <ul className="mt-6 space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-center gap-2">
