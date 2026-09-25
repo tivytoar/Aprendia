@@ -202,6 +202,18 @@ IDEA → CONTEXTO → PROMPT → RESULTADO → EVALUACIÓN → MEJORA`,
       },
       desafio:
         "Identificá tres tareas reales de tu vida cotidiana o trabajo que podrían recibir asistencia de IA. Para cada una escribí: (1) la tarea, (2) qué le pedirías a la IA, (3) qué parte seguirías haciendo vos.",
+      laboratorio: {
+        objetivo: "Comparar una instrucción débil y una fuerte sobre el mismo pedido real tuyo.",
+        pasos: [
+          "Elegí una tarea real (mail, post, resumen o plan).",
+          "Pedile a la IA la versión con instrucción mínima.",
+          "Repetí con rol, público, objetivo, formato y restricciones.",
+          "Anotá 3 diferencias de calidad."
+        ],
+        resultado: "Tabla mental o nota: débil vs fuerte + tu regla «la IA propone, yo verifico»."
+      },
+      mision: "Definí por escrito tu primera regla de uso responsable de IA (máximo 3 líneas) y tres tareas de tu semana donde un borrador te ahorraría tiempo.",
+      entregable: "Documento o nota: 1) regla personal 2) 3 tareas asistibles 3) un ejemplo débil vs fuerte probado.",
       checklist: [
         "Entiendo qué es IA generativa",
         "Comprendo sus limitaciones (alucinaciones, desactualización)",
@@ -365,6 +377,18 @@ Pegalo en una IA y evaluá si la respuesta es accionable.`,
       },
       desafio:
         "Creá tres versiones del mismo pedido (básico, intermedio y profesional) sobre una tarea real tuya. Compará la calidad de las tres respuestas.",
+      laboratorio: {
+        objetivo: "Ver cómo cambian las respuestas al modificar formato y restricciones.",
+        pasos: [
+          "Pedí el mismo resumen con «sé breve».",
+          "Pedí de nuevo con «5 viñetas accionables y un riesgo».",
+          "Pedí una versión creativa y una conservadora.",
+          "Registrá qué instrucción cambió el comportamiento."
+        ],
+        resultado: "Lista de 3 «palancas»: claridad, restricciones, formato."
+      },
+      mision: "Tomá un texto tuyo y pedí diagnóstico + reescritura + lista de cambios. Conservá solo lo que mejore claridad.",
+      entregable: "Antes/después de un mail o mensaje + las 3 palancas que usaste.",
       checklist: [
         "Entiendo que el modelo predice a partir de patrones y contexto",
         "Sé por qué la ambigüedad genera resultados pobres",
@@ -516,6 +540,18 @@ Formato: [FORMATO DESEADO]`,
       },
       desafio:
         "Creá cuatro prompts distintos con la fórmula, uno para cada caso: (1) una publicación de redes, (2) un email, (3) una idea de video, (4) una descripción de producto.",
+      laboratorio: {
+        objetivo: "Armar un prompt completo con las 6 piezas profesionales.",
+        pasos: [
+          "Escribí Rol, Tarea, Contexto, Formato, Restricciones, Calidad.",
+          "Completalo para un plan de 7 días o una tarea real.",
+          "Ejecutá y evaluá con checklist de 5 puntos.",
+          "Ajustá la pieza más débil del prompt y repetí."
+        ],
+        resultado: "Un prompt reutilizable guardado en tu biblioteca."
+      },
+      mision: "Creá tu plantilla base de prompt y usala en un caso real esta misma sesión.",
+      entregable: "Plantilla R-T-C-F-R-C completada + resultado obtenido + 1 mejora al prompt.",
       checklist: [
         "Memoricé la fórmula ROL + CONTEXTO + OBJETIVO + DATOS + RESTRICCIONES + FORMATO",
         "Creé al menos un prompt completo con los seis componentes",
@@ -638,6 +674,18 @@ Quiero que:
       },
       desafio:
         "Tomá una idea poco clara (tuya o de un proyecto) y convertíla en un plan ejecutable de 7 o 30 días usando solo iteraciones, sin reescribir el prompt desde cero cada vez.",
+      laboratorio: {
+        objetivo: "Ciclo de mejora: versión 1 → scores → versión 2.",
+        pasos: [
+          "Generá una versión 1 de un entregable tuyo.",
+          "Pedí scores 1-10 en claridad, utilidad, especificidad, formato.",
+          "Pedí versión 2 solo para ítems menores a 8.",
+          "Compará y guardá el delta."
+        ],
+        resultado: "Tabla de scores + versión 2 lista para usar."
+      },
+      mision: "Aplicá una sola ronda de mejora crítica a algo que ya generaste en clases anteriores.",
+      entregable: "Versión 1, scores, versión 2 y nota de qué instrucción de mejora funcionó.",
       checklist: [
         "Practiqué el ciclo de iteración completo",
         "Usé al menos tres técnicas de refinamiento",
@@ -798,6 +846,18 @@ Próximo paso:
       },
       desafio:
         "Abrí un chat nuevo, pegá solo el bloque maestro y pedí el próximo paso del proyecto. Verificá si la IA recupera el contexto sin que reexpliques todo.",
+      laboratorio: {
+        objetivo: "Operar con brief maestro y una sola subtarea.",
+        pasos: [
+          "Redactá un Brief maestro (10–15 líneas) de un proyecto real.",
+          "Abrí un chat nuevo solo con ese brief.",
+          "Ejecutá una subtarea concreta.",
+          "Pedí estado actualizado del proyecto al cerrar."
+        ],
+        resultado: "Brief + resultado de subtarea + estado para la próxima sesión."
+      },
+      mision: "Separá un proyecto en 3 subtareas y resolvé solo la primera con el método del brief.",
+      entregable: "Brief maestro + 3 subtareas listadas + una subtarea completada con estado.",
       checklist: [
         "Entiendo por qué se pierde el contexto en chats largos",
         "Creé un bloque maestro para un proyecto real",
@@ -928,6 +988,18 @@ No inventes citas ni estadísticas. Si no estás seguro de un dato, marcálo exp
       },
       desafio:
         "Contrastá tres afirmaciones generadas por IA usando al menos dos fuentes distintas por cada una. Anotá si se confirman, se matizan o se refutan.",
+      laboratorio: {
+        objetivo: "Investigar un tema etiquetando hecho / opinión / hipótesis.",
+        pasos: [
+          "Formulá 5 preguntas de investigación.",
+          "Obtené respuestas con IA.",
+          "Etiquetá cada afirmación clave.",
+          "Verificá al menos 2 datos fuera del chat."
+        ],
+        resultado: "Resumen solo con lo verificado + lista de lo dudoso."
+      },
+      mision: "Elegí un tema de trabajo o estudio y producí un brief de investigación usable para decidir.",
+      entregable: "8 hallazgos etiquetados + 2 verificaciones externas + resumen de 120 palabras.",
       checklist: [
         "Separé exploración de verificación",
         "Identifiqué afirmaciones de riesgo",
@@ -1061,6 +1133,18 @@ No inventes contenido. Si algo no está en los textos, marcálo como no presente
       },
       desafio:
         "Compará dos documentos relacionados (dos propuestas, dos versiones de un texto, dos artículos) y generá un informe ejecutivo de una página con coincidencias, diferencias y recomendación.",
+      laboratorio: {
+        objetivo: "Transformar un documento en paquete para reunión.",
+        pasos: [
+          "Elegí un PDF, mail largo o notas propias.",
+          "Pedí resumen orientado a un rol y una decisión.",
+          "Pedí tabla punto | implicación | acción.",
+          "Pedí 5 preguntas para el autor o el equipo."
+        ],
+        resultado: "Minuta accionable lista para compartir."
+      },
+      mision: "Usá el pipeline Objetivo → Extracción → Acciones en un documento real de esta semana.",
+      entregable: "Paquete A–D (resumen, tabla, riesgos, preguntas) sobre un documento tuyo.",
       checklist: [
         "Usé el flujo DOCUMENTO → EXTRACCIÓN → ANÁLISIS → VERIFICACIÓN",
         "Analicé un documento real sin aceptar invenciones",
@@ -1204,6 +1288,18 @@ No sobrecargues: debe ser realista para el tiempo indicado.`,
       },
       desafio:
         "Generá un plan de aprendizaje de 14 días para un tema que quieras dominar y cumplí (o simulá con detalle) los primeros 3 días, ajustando el plan si hace falta.",
+      laboratorio: {
+        objetivo: "Ciclo de estudio activo con corrección.",
+        pasos: [
+          "Elegí un tema que estés aprendiendo.",
+          "Pedí explicación breve + 10 preguntas.",
+          "Respondé al menos 5 sin mirar.",
+          "Pedí corrección y plan de 3 días."
+        ],
+        resultado: "Plan de estudio de 3 días basado en tus huecos reales."
+      },
+      mision: "Completá una sesión de 45 minutos de estudio activo asistido por IA.",
+      entregable: "Respuestas propias + corrección + plan 3×45 min.",
       checklist: [
         "Configuré un tutor con diagnóstico",
         "Completé al menos una sesión de práctica con feedback",
@@ -1324,6 +1420,18 @@ Para cada una incluí:
       },
       desafio:
         "Creá 30 ideas de contenido clasificadas en: educación, entretenimiento, autoridad, confianza y conversión (6 por categoría). No hace falta redactar los textos completos; sí el concepto y el ángulo.",
+      laboratorio: {
+        objetivo: "Producir una pieza con cadena profesional completa.",
+        pasos: [
+          "Escribí brief (público, promesa, CTA, tono).",
+          "Generá outline de 5 bloques.",
+          "Generá borrador.",
+          "Reescribí las 3 frases más importantes con tu voz."
+        ],
+        resultado: "Pieza lista para QA (no publicar en crudo)."
+      },
+      mision: "Una pieza real (post, mail o sección) con brief + outline + borrador editado.",
+      entregable: "Brief + outline + borrador editado + 3 ganchos alternativos.",
       checklist: [
         "Definí público, objetivo, tono y CTA antes de generar",
         "Creé una semana de contenido coherente",
@@ -1445,6 +1553,18 @@ Ordená la lista por impacto (tiempo recuperado × facilidad).`,
       },
       desafio:
         "Diseñá un flujo completo ENTRADA → PROCESAMIENTO → IA → REVISIÓN → SALIDA para una de esas tareas. Incluí qué datos entran, qué hace la IA, qué revisás vos y dónde queda el resultado.",
+      laboratorio: {
+        objetivo: "Estandarizar una tarea repetitiva.",
+        pasos: [
+          "Listá 5 tareas repetitivas de texto u organización.",
+          "Elegí 1 y escribí SOP en 6 pasos.",
+          "Creá prompt con variables entre corchetes.",
+          "Ejecutalo 2 veces con datos distintos."
+        ],
+        resultado: "SOP + prompt reutilizable + checklist de calidad."
+      },
+      mision: "Dejá documentada una tarea que antes improvisabas cada vez.",
+      entregable: "SOP 6 pasos + prompt con variables + nota de qué no automatizar aún.",
       checklist: [
         "Listé 10 tareas repetitivas con criterios",
         "Prioricé por impacto",
@@ -1568,6 +1688,18 @@ Mantené el objetivo y las restricciones. Devolvé solo el brief anonimizado.`,
       },
       desafio:
         "Creá tu política personal de uso de IA en 10 reglas concretas (no genéricas). Ejemplo de tono: “Nunca pego números de tarjeta”, “Anonimizó nombres de clientes”, etc.",
+      laboratorio: {
+        objetivo: "Definir política personal de privacidad con IA.",
+        pasos: [
+          "Revisá qué tipo de datos pegaste en chats recientes.",
+          "Escribí lista negra (qué nunca pegás).",
+          "Reescribí un prompt usando datos ficticios.",
+          "Redactá política personal en 8 líneas."
+        ],
+        resultado: "Política de 8 líneas + lista negra guardadas."
+      },
+      mision: "Dejá operativa tu regla de oro de privacidad antes de seguir al sistema final.",
+      entregable: "Lista negra + método de anonimización en 5 pasos + política 8 líneas.",
       checklist: [
         "Sé qué datos nunca debo compartir",
         "Clasifiqué 10 tipos de información",
@@ -1716,6 +1848,18 @@ Antes de dar una solución compleja, identificá los datos que podrían cambiar 
       },
       desafio:
         "Dejá listo el esqueleto del Proyecto 1: perfil de uso, índices de la biblioteca (aunque falten textos), nombres de 3 asistentes y borrador de las 10 reglas de seguridad (de la clase 11).",
+      laboratorio: {
+        objetivo: "Armar el sistema personal mínimo viable.",
+        pasos: [
+          "Creá doc «Sistema IA – [Tu nombre]».",
+          "Secciones: prompts, proyectos, ritual, privacidad, entregables.",
+          "Cargá al menos 5 prompts del módulo.",
+          "Definí ritual semanal de 30–45 min y 3 usos fijos."
+        ],
+        resultado: "Sistema documentado listo para 14 días de prueba."
+      },
+      mision: "Cerrar el Módulo 1 con un sistema que puedas ejecutar la próxima semana sin improvisar.",
+      entregable: "Doc de sistema + 5 prompts + ritual semanal + métrica simple a 14 días.",
       checklist: [
         "Definí mis áreas de uso",
         "Borré al menos un asistente especializado",

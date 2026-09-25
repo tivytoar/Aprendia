@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { PromptBlock } from "@/app/(dashboard)/dashboard/lessons/[lessonId]/prompt-block";
 import { ToolVisual } from "@/components/course/tool-visual";
+import { Module1LessonVisual } from "@/components/course/module1-visuals";
 
 function ChatMock({
   titulo,
@@ -150,33 +151,37 @@ export function LessonPremium({
         </section>
       )}
 
-      {/* Visual premium de herramienta — contenido educativo, sin tocar lógica de curso */}
-      <ToolVisual
-        tool={
-          lessonOrder <= 2
-            ? "chatgpt"
-            : lessonOrder <= 4
-              ? "claude"
-              : lessonOrder <= 6
-                ? "chatgpt"
-                : lessonOrder <= 9
-                  ? "perplexity"
-                  : "chatgpt"
-        }
-        title={
-          lessonOrder === 1
-            ? "Entendé cómo funciona la IA"
-            : lessonOrder === 2
-              ? "Tu espacio de trabajo con IA"
-              : lessonOrder === 3
-                ? "Convertí una idea en un prompt profesional"
-                : lessonOrder === 4
-                  ? "Analizá información con IA"
-                  : "Aplicá la IA en un flujo profesional"
-        }
-        subtitle={`SIMULACIÓN EDUCATIVA · AprendIA · CLASE ${lessonOrder}`}
-        variant={lessonOrder === 1 ? "prompt-transformation" : "default"}
-      />
+      {/* Visual educativa del módulo — distinta por clase; Clase 1 conserva prompt-transformation */}
+      {String(moduleTitle || "").toLowerCase().includes("fundamento") ? (
+        <Module1LessonVisual lessonOrder={lessonOrder} />
+      ) : (
+        <ToolVisual
+          tool={
+            lessonOrder <= 2
+              ? "chatgpt"
+              : lessonOrder <= 4
+                ? "claude"
+                : lessonOrder <= 6
+                  ? "chatgpt"
+                  : lessonOrder <= 9
+                    ? "perplexity"
+                    : "chatgpt"
+          }
+          title={
+            lessonOrder === 1
+              ? "Entendé cómo funciona la IA"
+              : lessonOrder === 2
+                ? "Tu espacio de trabajo con IA"
+                : lessonOrder === 3
+                  ? "Convertí una idea en un prompt profesional"
+                  : lessonOrder === 4
+                    ? "Analizá información con IA"
+                    : "Aplicá la IA en un flujo profesional"
+          }
+          subtitle={`SIMULACIÓN EDUCATIVA · AprendIA · CLASE ${lessonOrder}`}
+          variant={lessonOrder === 1 ? "prompt-transformation" : "default"}
+        />
+      )}
 
       {Array.isArray(content.contenido) && content.contenido.length > 0 && (
         <section className="space-y-6">
@@ -342,6 +347,62 @@ export function LessonPremium({
           </div>
         </div>
       </section>
+
+
+      {content.laboratorio && (
+        <section className="space-y-3">
+          <SectionTitle icon={Zap}>Laboratorio práctico</SectionTitle>
+          <div className="card border-primary/20 space-y-3">
+            {content.laboratorio.objetivo && (
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                <span className="font-semibold text-foreground">Objetivo: </span>
+                {content.laboratorio.objetivo}
+              </p>
+            )}
+            {Array.isArray(content.laboratorio.pasos) && (
+              <ol className="space-y-2 text-sm">
+                {content.laboratorio.pasos.map((paso: string, i: number) => (
+                  <li key={i} className="flex gap-3">
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary/15 text-xs font-bold text-primary">
+                      {i + 1}
+                    </span>
+                    <span className="pt-0.5 text-muted-foreground">{paso}</span>
+                  </li>
+                ))}
+              </ol>
+            )}
+            {content.laboratorio.resultado && (
+              <p className="rounded-lg border border-success/20 bg-success/10 px-3 py-2 text-xs text-success">
+                Resultado del lab: {content.laboratorio.resultado}
+              </p>
+            )}
+          </div>
+        </section>
+      )}
+
+      {(content.mision || content.mission) && (
+        <section className="space-y-3">
+          <SectionTitle icon={Target}>Misión</SectionTitle>
+          <div className="rounded-2xl border border-accent/30 bg-accent/5 p-5 text-sm leading-relaxed text-muted-foreground whitespace-pre-line">
+            {typeof (content.mision || content.mission) === "string"
+              ? content.mision || content.mission
+              : (content.mision || content.mission)?.descripcion ||
+                (content.mision || content.mission)?.texto ||
+                ""}
+          </div>
+        </section>
+      )}
+
+      {content.entregable && (
+        <section className="space-y-3">
+          <SectionTitle icon={Flag}>Entregable de la clase</SectionTitle>
+          <div className="card border-primary/25 text-sm text-muted-foreground leading-relaxed whitespace-pre-line">
+            {typeof content.entregable === "string"
+              ? content.entregable
+              : content.entregable.descripcion || content.entregable.texto || ""}
+          </div>
+        </section>
+      )}
 
       {Array.isArray(content.prompts) && content.prompts.length > 0 && (
         <section className="space-y-4">
