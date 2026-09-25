@@ -114,7 +114,7 @@ Cuanto más claro el destino, mejor el viaje.`,
       ],
       prompts: [
         {
-          titulo: "Explicar un concepto con contexto",
+          titulo: "Prompt Maestro: convertir una idea en una explicación profesional",
           texto: `Explicá el concepto de [CONCEPTO] para [PÚBLICO].
 
 Objetivo: [OBJETIVO, ej: que lo entiendan y puedan aplicarlo]
@@ -156,17 +156,48 @@ Incluí un ejemplo concreto al final.`,
         "Empezá simple y agregá contexto solo cuando haga falta.",
       ],
       ejercicio: {
-        titulo: "Comparar una instrucción débil vs una fuerte",
-        descripcion: `1. Pedile a una IA (ChatGPT, Claude, Gemini u otra) que explique un concepto que conozcas bien, sin dar más contexto. Ejemplo: “Explicame qué es la productividad”.
-2. Guardá la respuesta.
-3. Volvé a pedir lo mismo especificando: público, objetivo, nivel, extensión, formato y un ejemplo.
-4. Compará ambas respuestas.
-5. Anotá qué mejoró y qué seguiría faltando.`,
+        titulo: "MISIÓN 01 — De una idea a un prompt profesional",
+        descripcion: `### OBJETIVO
+
+Convertir una necesidad real en una instrucción profesional para una IA.
+
+### TU MISIÓN
+
+Elegí una tarea real de tu trabajo, emprendimiento, estudio o vida cotidiana que te gustaría resolver mejor con IA.
+
+1. Definí qué necesitás conseguir.
+2. Identificá quién va a utilizar el resultado.
+3. Explicá el contexto que la IA necesita conocer.
+4. Especificá el formato en el que querés recibir la respuesta.
+5. Indicá qué características tendría un resultado de calidad.
+6. Ejecutá tu prompt en una IA.
+7. Revisá críticamente el resultado.
+8. Hacé una segunda versión mejorada del prompt.
+
+### ENTREGA
+
+Guardá:
+
+• Prompt versión 1
+• Resultado obtenido
+• Qué problema encontraste
+• Prompt versión 2
+• Resultado mejorado
+
+### REGLA APRENDIA
+
+No busques simplemente que la IA "responda". Buscá que produzca algo que puedas utilizar en una situación real.
+
+### RESULTADO FINAL
+
+Al terminar tendrás tu primer prompt profesional reutilizable y habrás experimentado el ciclo:
+
+IDEA → CONTEXTO → PROMPT → RESULTADO → EVALUACIÓN → MEJORA`,
         pasos: [
-          "Elegí un concepto que domines",
-          "Pedí la explicación genérica",
-          "Pedí la explicación con contexto completo",
-          "Compará y documentá las diferencias",
+          "Definí una necesidad real que quieras resolver con IA",
+          "Construí tu primer prompt con contexto, objetivo y formato",
+          "Ejecutá el prompt, analizá el resultado y detectá mejoras",
+          "Creá una segunda versión y guardá tu resultado final",
         ],
       },
       desafio:

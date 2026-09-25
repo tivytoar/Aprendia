@@ -13,6 +13,7 @@ import {
   XCircle,
 } from "lucide-react";
 import { PromptBlock } from "@/app/(dashboard)/dashboard/lessons/[lessonId]/prompt-block";
+import { ToolVisual } from "@/components/course/tool-visual";
 
 function ChatMock({
   titulo,
@@ -148,6 +149,34 @@ export function LessonPremium({
           )}
         </section>
       )}
+
+      {/* Visual premium de herramienta — contenido educativo, sin tocar lógica de curso */}
+      <ToolVisual
+        tool={
+          lessonOrder <= 2
+            ? "chatgpt"
+            : lessonOrder <= 4
+              ? "claude"
+              : lessonOrder <= 6
+                ? "chatgpt"
+                : lessonOrder <= 9
+                  ? "perplexity"
+                  : "chatgpt"
+        }
+        title={
+          lessonOrder === 1
+            ? "Entendé cómo funciona la IA"
+            : lessonOrder === 2
+              ? "Tu espacio de trabajo con IA"
+              : lessonOrder === 3
+                ? "Convertí una idea en un prompt profesional"
+                : lessonOrder === 4
+                  ? "Analizá información con IA"
+                  : "Aplicá la IA en un flujo profesional"
+        }
+        subtitle={`SIMULACIÓN EDUCATIVA · AprendIA · CLASE ${lessonOrder}`}
+        variant={lessonOrder === 1 ? "prompt-transformation" : "default"}
+      />
 
       {Array.isArray(content.contenido) && content.contenido.length > 0 && (
         <section className="space-y-6">
