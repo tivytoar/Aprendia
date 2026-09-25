@@ -120,6 +120,18 @@ Sé concreto y realista. No inventes métricas históricas.`,
       },
       desafio:
         "Expandí ese sistema a un diseño de contenido de 30 días: frecuencia, mix de pilares por semana y criterios de éxito al día 30.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: sistema profesional de creación de contenido.",
+        pasos: [
+          "Definí un caso real relacionado con: sistema profesional de creación de contenido.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «sistema profesional de creación de contenido», no solo apuntes."
+      },
+      mision: "Completá un caso real de «sistema profesional de creación de contenido» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «sistema profesional de creación de contenido» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Objetivo definido",
         "Público definido",
@@ -256,6 +268,18 @@ No inventes estadísticas. Si falta información, listá las preguntas que deber
       },
       desafio:
         "Creá tres perfiles distintos (por ejemplo: comprador impulsivo, comprador racional, prescriptor) y compará en qué cambia el mensaje y el CTA para cada uno.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: público, cliente ideal y mensaje.",
+        pasos: [
+          "Definí un caso real relacionado con: público, cliente ideal y mensaje.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «público, cliente ideal y mensaje», no solo apuntes."
+      },
+      mision: "Completá un caso real de «público, cliente ideal y mensaje» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «público, cliente ideal y mensaje» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Perfil de cliente ideal creado",
         "Separé hechos de hipótesis",
@@ -379,6 +403,18 @@ Los pilares deben ser distintivos entre sí y realistas para el equipo o la pers
       },
       desafio:
         "Generá 30 ideas distribuidas en tus pilares (mínimo 4 por pilar). Anotá pilar, formato y gancho de cada una.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: pilares de contenido.",
+        pasos: [
+          "Definí un caso real relacionado con: pilares de contenido.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «pilares de contenido», no solo apuntes."
+      },
+      mision: "Completá un caso real de «pilares de contenido» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «pilares de contenido» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "4–6 pilares definidos",
         "Cada pilar tiene propósito y ejemplos",
@@ -498,6 +534,18 @@ Priorizá ideas específicas al negocio, no genéricas del rubro.`,
       },
       desafio:
         "Definí 3 criterios de calidad y seleccioná las 10 mejores ideas. Justificá en una línea por qué cada una entró al top 10.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: banco de ideas sin repetición.",
+        pasos: [
+          "Definí un caso real relacionado con: banco de ideas sin repetición.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «banco de ideas sin repetición», no solo apuntes."
+      },
+      mision: "Completá un caso real de «banco de ideas sin repetición» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «banco de ideas sin repetición» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Generé 50 ideas con estructura completa",
         "Eliminé repeticiones conceptuales",
@@ -621,6 +669,18 @@ Para cada versión:
       },
       desafio:
         "Tomá un texto real de un negocio (el tuyo o uno público) y reescribilo con una estructura clara, sin exagerar. Compará original vs nueva versión.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: copywriting profesional con IA.",
+        pasos: [
+          "Definí un caso real relacionado con: copywriting profesional con IA.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «copywriting profesional con IA», no solo apuntes."
+      },
+      mision: "Completá un caso real de «copywriting profesional con IA» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «copywriting profesional con IA» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Generé 5 versiones con estructuras distintas",
         "Elegí y edité una versión final",
@@ -746,6 +806,18 @@ No inventes datos de resultados.`,
       },
       desafio:
         "Diseñá una serie de cinco videos relacionados (mismo pilar o misma campaña) con título, hook y objetivo de cada uno. Opcional: guion completo del primero.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: guion de video con estructura.",
+        pasos: [
+          "Definí un caso real relacionado con: guion de video con estructura.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «guion de video con estructura», no solo apuntes."
+      },
+      mision: "Completá un caso real de «guion de video con estructura» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «guion de video con estructura» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Tres guiones con estructura completa",
         "Hooks revisados",
@@ -879,6 +951,18 @@ Restricciones: [RESTRICCIONES, ej: sin texto, paleta en tonos tierra, sin person
       },
       desafio:
         "Creá una mini campaña de cinco imágenes coherentes (mismo producto, misma paleta y estilo, distintas escenas o ángulos).",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: brief visual e imagen con IA.",
+        pasos: [
+          "Definí un caso real relacionado con: brief visual e imagen con IA.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «brief visual e imagen con IA», no solo apuntes."
+      },
+      mision: "Completá un caso real de «brief visual e imagen con IA» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «brief visual e imagen con IA» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Usé la fórmula de prompt visual",
         "Generé tres conceptos documentados",
@@ -995,6 +1079,18 @@ Incluí:
       },
       desafio:
         "Generá cinco conceptos visuales siguiendo exactamente la misma identidad (misma guía). Verificá que se vean de la misma familia.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: identidad visual consistente.",
+        pasos: [
+          "Definí un caso real relacionado con: identidad visual consistente.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «identidad visual consistente», no solo apuntes."
+      },
+      mision: "Completá un caso real de «identidad visual consistente» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «identidad visual consistente» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Guía visual creada",
         "Incluye prohibidos y ejemplos de prompts",
@@ -1118,6 +1214,18 @@ No dejes más de 3 días seguidos solo de venta dura.`,
       },
       desafio:
         "Esbozá la lógica de un calendario de 90 días: temas por mes, campañas clave y ritmo de conversión (sin detallar los 90 días línea por línea si no hace falta).",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: calendario editorial realista.",
+        pasos: [
+          "Definí un caso real relacionado con: calendario editorial realista.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «calendario editorial realista», no solo apuntes."
+      },
+      mision: "Completá un caso real de «calendario editorial realista» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «calendario editorial realista» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Calendario 30 días creado",
         "Cada pieza tiene objetivo y CTA",
@@ -1226,6 +1334,18 @@ No inventes datos que no estén en el contenido original.`,
       },
       desafio:
         "Creá el plan de una semana completa (7 días) a partir de una sola pieza madre, con formato y CTA por día.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: repurposing de un pilar a múltiples piezas.",
+        pasos: [
+          "Definí un caso real relacionado con: repurposing de un pilar a múltiples piezas.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «repurposing de un pilar a múltiples piezas», no solo apuntes."
+      },
+      mision: "Completá un caso real de «repurposing de un pilar a múltiples piezas» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «repurposing de un pilar a múltiples piezas» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Transformé una pieza en múltiples formatos",
         "Adapté mensaje por formato",
@@ -1340,6 +1460,18 @@ No inventes métricas que no estén en [DATOS].`,
       },
       desafio:
         "Creá un informe mensual de una página: mejores piezas, peores, patrones, hipótesis y plan de acción del próximo mes.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: análisis y optimización de contenido.",
+        pasos: [
+          "Definí un caso real relacionado con: análisis y optimización de contenido.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «análisis y optimización de contenido», no solo apuntes."
+      },
+      mision: "Completá un caso real de «análisis y optimización de contenido» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «análisis y optimización de contenido» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Analicé datos sin aceptar métricas inventadas",
         "Separé observados de hipótesis",
@@ -1460,6 +1592,18 @@ Sé directo y específico.`,
       },
       desafio:
         "Corré el prompt de auditoría sobre tu sistema parcial y aplicá al menos 3 mejoras antes de empezar el Proyecto 2 formal.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: fábrica de contenido operable.",
+        pasos: [
+          "Definí un caso real relacionado con: fábrica de contenido operable.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «fábrica de contenido operable», no solo apuntes."
+      },
+      mision: "Completá un caso real de «fábrica de contenido operable» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «fábrica de contenido operable» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Mapa de la fábrica documentado",
         "Índice único con todos los bloques",

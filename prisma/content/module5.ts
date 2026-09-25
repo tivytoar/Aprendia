@@ -100,6 +100,18 @@ No inventes procesos que no encajen en el contexto.`,
       },
       desafio:
         "Elegí el proceso #1 prioritario y describílo en 5 pasos del modelo ENTRADA → … → RESULTADO.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: mapa de proceso antes de tools.",
+        pasos: [
+          "Definí un caso real relacionado con: mapa de proceso antes de tools.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «mapa de proceso antes de tools», no solo apuntes."
+      },
+      mision: "Completá un caso real de «mapa de proceso antes de tools» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «mapa de proceso antes de tools» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "10 procesos inventariados",
         "Impacto priorizado",
@@ -218,6 +230,18 @@ Señalá supuestos.`,
       },
       desafio:
         "Agregá al mapa 3 fallos posibles y qué debería hacer el sistema en cada uno.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: workflow profesional diagramado.",
+        pasos: [
+          "Definí un caso real relacionado con: workflow profesional diagramado.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «workflow profesional diagramado», no solo apuntes."
+      },
+      mision: "Completá un caso real de «workflow profesional diagramado» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «workflow profesional diagramado» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Trigger definido",
         "Entrada, procesamiento, condiciones y acciones",
@@ -340,6 +364,18 @@ Priorizá casos realistas del contexto.`,
       },
       desafio:
         "Elegí uno y agregá una segunda condición (anidada o en secuencia) sin volverlo ilegible.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: triggers, filtros y acciones.",
+        pasos: [
+          "Definí un caso real relacionado con: triggers, filtros y acciones.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «triggers, filtros y acciones», no solo apuntes."
+      },
+      mision: "Completá un caso real de «triggers, filtros y acciones» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «triggers, filtros y acciones» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "5 workflows con trigger y acción",
         "Condiciones claras",
@@ -467,6 +503,18 @@ Sé concreto y mínimo.`,
       },
       desafio:
         "Agregá un campo calculado (ej. prioridad derivada de palabras clave) y describí cómo se obtendría.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: estructura de datos del flujo.",
+        pasos: [
+          "Definí un caso real relacionado con: estructura de datos del flujo.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «estructura de datos del flujo», no solo apuntes."
+      },
+      mision: "Completá un caso real de «estructura de datos del flujo» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «estructura de datos del flujo» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Campos y tipos definidos",
         "JSON de ejemplo",
@@ -597,6 +645,18 @@ Mantené el diseño a nivel arquitectura.`,
       },
       desafio:
         "Agregá un quinto paso de “si la IA no está segura → cola humana” y definí el criterio de confianza.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: conexión entre herramientas.",
+        pasos: [
+          "Definí un caso real relacionado con: conexión entre herramientas.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «conexión entre herramientas», no solo apuntes."
+      },
+      mision: "Completá un caso real de «conexión entre herramientas» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «conexión entre herramientas» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Cuatro etapas con datos de entrada/salida",
         "Fallos y auth considerados",
@@ -707,6 +767,18 @@ No inventes proveedores específicos innecesarios.`,
       },
       desafio:
         "Para uno de ellos, describí el plan si el webhook falla 3 veces seguidas.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: evento webhook y reacción.",
+        pasos: [
+          "Definí un caso real relacionado con: evento webhook y reacción.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «evento webhook y reacción», no solo apuntes."
+      },
+      mision: "Completá un caso real de «evento webhook y reacción» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «evento webhook y reacción» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 flujos por evento",
         "Datos del evento definidos",
@@ -833,6 +905,18 @@ No dependas de una herramienta comercial específica.`,
       },
       desafio:
         "Tomá uno y reducilo a la versión mínima viable (menos pasos, mismo objetivo).",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: automatización no-code mínima.",
+        pasos: [
+          "Definí un caso real relacionado con: automatización no-code mínima.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «automatización no-code mínima», no solo apuntes."
+      },
+      mision: "Completá un caso real de «automatización no-code mínima» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «automatización no-code mínima» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 workflows documentados",
         "Arquitectura general respetada",
@@ -951,6 +1035,18 @@ Mensaje:
       },
       desafio:
         "Agregá una regla: si prioridad=alta o categoría=reclamo → notificar humano siempre.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: paso de IA dentro del flujo.",
+        pasos: [
+          "Definí un caso real relacionado con: paso de IA dentro del flujo.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «paso de IA dentro del flujo», no solo apuntes."
+      },
+      mision: "Completá un caso real de «paso de IA dentro del flujo» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «paso de IA dentro del flujo» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Prompt de decisión con salida estructurada",
         "Condiciones mapeadas a acciones",
@@ -1066,6 +1162,18 @@ No asumas capacidades mágicas. Sé realista.`,
       },
       desafio:
         "Redactá la política de “stop y escalar a humano” en 5 reglas concretas.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: diseño de agente con límites.",
+        pasos: [
+          "Definí un caso real relacionado con: diseño de agente con límites.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «diseño de agente con límites», no solo apuntes."
+      },
+      mision: "Completá un caso real de «diseño de agente con límites» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «diseño de agente con límites» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Objetivo y herramientas definidos",
         "Límites y datos sensibles claros",
@@ -1184,6 +1292,18 @@ No inventes datos personales reales.`,
       },
       desafio:
         "Escribí una checklist de seguridad de 8 ítems específica a tu solución.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: plan de testing y alertas.",
+        pasos: [
+          "Definí un caso real relacionado con: plan de testing y alertas.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «plan de testing y alertas», no solo apuntes."
+      },
+      mision: "Completá un caso real de «plan de testing y alertas» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «plan de testing y alertas» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "≥10 casos de prueba",
         "Casos de error incluidos",
@@ -1305,6 +1425,18 @@ Tono claro y comercial, sin hype.`,
       },
       desafio:
         "Escribí el párrafo de “fuera de alcance” y el de “cuándo interviene un humano”.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: one-pager de solución vendible.",
+        pasos: [
+          "Definí un caso real relacionado con: one-pager de solución vendible.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «one-pager de solución vendible», no solo apuntes."
+      },
+      mision: "Completá un caso real de «one-pager de solución vendible» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «one-pager de solución vendible» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Propuesta con las 8 secciones",
         "Antes/después claro",
@@ -1412,6 +1544,18 @@ Sé directo y específico.`,
       },
       desafio: `Diseñá (o cerrá) una automatización que incluya:
 trigger, entradas, procesamiento, IA, condiciones, acciones, resultado, errores, revisión humana y seguridad.`,
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: solución completa documentada.",
+        pasos: [
+          "Definí un caso real relacionado con: solución completa documentada.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «solución completa documentada», no solo apuntes."
+      },
+      mision: "Completá un caso real de «solución completa documentada» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «solución completa documentada» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Hilo conductor completo o con faltantes explícitos",
         "Checklist mínimo revisado",

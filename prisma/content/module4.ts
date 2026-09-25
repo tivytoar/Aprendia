@@ -102,6 +102,18 @@ No inventes datos de mercado ni resultados.`,
       },
       desafio:
         "Listá en qué 3 áreas del mapa vas a usar IA primero y por qué (impacto × facilidad).",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: mapa de crecimiento con IA.",
+        pasos: [
+          "Definí un caso real relacionado con: mapa de crecimiento con IA.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «mapa de crecimiento con IA», no solo apuntes."
+      },
+      mision: "Completá un caso real de «mapa de crecimiento con IA» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «mapa de crecimiento con IA» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Negocio elegido y documentado",
         "Producto, cliente, problema y objetivo definidos",
@@ -224,6 +236,18 @@ No inventes estadísticas ni cuotas de mercado.`,
       },
       desafio:
         "Elegí un competidor real (o tipo) y listá 5 diferencias observables sin inventar precios ni claims.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: investigación de mercado verificable.",
+        pasos: [
+          "Definí un caso real relacionado con: investigación de mercado verificable.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «investigación de mercado verificable», no solo apuntes."
+      },
+      mision: "Completá un caso real de «investigación de mercado verificable» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «investigación de mercado verificable» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Estudio estructurado generado",
         "Hechos / hipótesis / verificación separados",
@@ -341,6 +365,18 @@ Cuando hagas una hipótesis, indicá que es una hipótesis.`,
       },
       desafio:
         "Escribí un párrafo de mensaje para cada persona sobre el mismo producto y notá las diferencias de tono y beneficio.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: buyer persona accionable.",
+        pasos: [
+          "Definí un caso real relacionado con: buyer persona accionable.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «buyer persona accionable», no solo apuntes."
+      },
+      mision: "Completá un caso real de «buyer persona accionable» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «buyer persona accionable» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "2 buyer personas documentadas",
         "Hipótesis marcadas como tales",
@@ -452,6 +488,18 @@ Después proponé 5 formas de comunicar la propuesta de valor sin realizar afirm
       },
       desafio:
         "Redactá la propuesta de valor en menos de 80 palabras sin claims no demostrables.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: propuesta de valor en una frase.",
+        pasos: [
+          "Definí un caso real relacionado con: propuesta de valor en una frase.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «propuesta de valor en una frase», no solo apuntes."
+      },
+      mision: "Completá un caso real de «propuesta de valor en una frase» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «propuesta de valor en una frase» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "10 pares característica-beneficio",
         "Propuesta de valor corta redactada",
@@ -556,6 +604,18 @@ No inventes testimonios, resultados ni garantías.`,
       },
       desafio:
         "Escribí el bloque de oferta para una landing en menos de 150 palabras.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: oferta empaquetada con exclusiones.",
+        pasos: [
+          "Definí un caso real relacionado con: oferta empaquetada con exclusiones.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «oferta empaquetada con exclusiones», no solo apuntes."
+      },
+      mision: "Completá un caso real de «oferta empaquetada con exclusiones» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «oferta empaquetada con exclusiones» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 versiones de oferta diseñadas",
         "Una oferta principal documentada",
@@ -668,6 +728,18 @@ Marcá claramente cada bloque AIDA.`,
       },
       desafio:
         "Convertí el copy ganador en versión anuncio corto (≤ 125 caracteres de texto principal) + versión email.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: copy de venta con prueba.",
+        pasos: [
+          "Definí un caso real relacionado con: copy de venta con prueba.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «copy de venta con prueba», no solo apuntes."
+      },
+      mision: "Completá un caso real de «copy de venta con prueba» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «copy de venta con prueba» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 copies con estructuras distintas",
         "Sin testimonios inventados",
@@ -807,6 +879,18 @@ Sin inventar cifras. Si no hay datos reales todavía, dejá los campos como "[co
       },
       desafio:
         "Tomá el calendario de 30 días que ya sabés armar (Módulo 2) y clasificá cada pieza según la etapa del embudo a la que pertenece (atracción / consideración / decisión). Si más del 60% cae en una sola etapa, ajustá el calendario para equilibrarlo.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: plan de redes de un canal.",
+        pasos: [
+          "Definí un caso real relacionado con: plan de redes de un canal.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «plan de redes de un canal», no solo apuntes."
+      },
+      mision: "Completá un caso real de «plan de redes de un canal» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «plan de redes de un canal» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "2 plataformas elegidas con justificación de negocio",
         "Contenido mapeado a las 3 etapas del embudo",
@@ -932,6 +1016,18 @@ No prometas resultados ni ROAS inventados.`,
       },
       desafio:
         "Escribí la hipótesis de un test A/B (qué cambia, qué medís, qué decidirías).",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: esquema de campaña publicitaria.",
+        pasos: [
+          "Definí un caso real relacionado con: esquema de campaña publicitaria.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «esquema de campaña publicitaria», no solo apuntes."
+      },
+      mision: "Completá un caso real de «esquema de campaña publicitaria» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «esquema de campaña publicitaria» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 audiencias y 3 ángulos",
         "3 anuncios esbozados",
@@ -1041,6 +1137,18 @@ No utilices tácticas manipulativas.`,
       },
       desafio:
         "Armá un mini proceso comercial: apertura → diagnóstico → propuesta → objeción → cierre/siguiente paso.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: playbook de objeciones.",
+        pasos: [
+          "Definí un caso real relacionado con: playbook de objeciones.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «playbook de objeciones», no solo apuntes."
+      },
+      mision: "Completá un caso real de «playbook de objeciones» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «playbook de objeciones» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "10 objeciones con respuesta ética",
         "Preguntas de diagnóstico listadas",
@@ -1148,6 +1256,18 @@ Si falta un dato de negocio, marcá "completar con política real".`,
       },
       desafio:
         "Definí 5 reglas de escalamiento (ej. reclamo, reembolso, caso legal, cliente VIP, duda técnica avanzada).",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: flujo de atención al cliente.",
+        pasos: [
+          "Definí un caso real relacionado con: flujo de atención al cliente.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «flujo de atención al cliente», no solo apuntes."
+      },
+      mision: "Completá un caso real de «flujo de atención al cliente» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «flujo de atención al cliente» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "≥20 FAQ documentadas",
         "Casos de escalamiento claros",
@@ -1258,6 +1378,18 @@ No inventes datos que no estén en [DATOS].`,
       },
       desafio:
         "Diseñá un experimento de 7 días con hipótesis, métrica primaria y criterio de decisión.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: 3 métricas de marketing.",
+        pasos: [
+          "Definí un caso real relacionado con: 3 métricas de marketing.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «3 métricas de marketing», no solo apuntes."
+      },
+      mision: "Completá un caso real de «3 métricas de marketing» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «3 métricas de marketing» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Análisis estructurado hecho",
         "Hipótesis y experimentos listados",
@@ -1368,6 +1500,18 @@ Sé directo.`,
       },
       desafio:
         "Prepará un outline de presentación de 12 puntos como si se lo entregaras a un cliente real.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: sistema comercial mínimo.",
+        pasos: [
+          "Definí un caso real relacionado con: sistema comercial mínimo.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «sistema comercial mínimo», no solo apuntes."
+      },
+      mision: "Completá un caso real de «sistema comercial mínimo» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «sistema comercial mínimo» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Índice del sistema creado",
         "Huecos identificados",

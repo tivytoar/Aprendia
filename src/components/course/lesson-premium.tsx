@@ -15,6 +15,16 @@ import {
 import { PromptBlock } from "@/app/(dashboard)/dashboard/lessons/[lessonId]/prompt-block";
 import { ToolVisual } from "@/components/course/tool-visual";
 import { Module1LessonVisual } from "@/components/course/module1-visuals";
+import { Module2LessonVisual } from "@/components/course/module2-visuals";
+import { Module3LessonVisual } from "@/components/course/module3-visuals";
+import { Module4LessonVisual } from "@/components/course/module4-visuals";
+import { Module5LessonVisual } from "@/components/course/module5-visuals";
+import { Module6LessonVisual } from "@/components/course/module6-visuals";
+import { ToolPracticeDemo } from "@/components/course/tool-practice-demo";
+import {
+  getToolPractice,
+  moduleNumberFromTitle,
+} from "@/components/course/tool-practice-catalog";
 
 function ChatMock({
   titulo,
@@ -151,37 +161,34 @@ export function LessonPremium({
         </section>
       )}
 
-      {/* Visual educativa del módulo — distinta por clase; Clase 1 conserva prompt-transformation */}
-      {String(moduleTitle || "").toLowerCase().includes("fundamento") ? (
-        <Module1LessonVisual lessonOrder={lessonOrder} />
-      ) : (
-        <ToolVisual
-          tool={
-            lessonOrder <= 2
-              ? "chatgpt"
-              : lessonOrder <= 4
-                ? "claude"
-                : lessonOrder <= 6
-                  ? "chatgpt"
-                  : lessonOrder <= 9
-                    ? "perplexity"
-                    : "chatgpt"
-          }
-          title={
-            lessonOrder === 1
-              ? "Entendé cómo funciona la IA"
-              : lessonOrder === 2
-                ? "Tu espacio de trabajo con IA"
-                : lessonOrder === 3
-                  ? "Convertí una idea en un prompt profesional"
-                  : lessonOrder === 4
-                    ? "Analizá información con IA"
-                    : "Aplicá la IA en un flujo profesional"
-          }
-          subtitle={`SIMULACIÓN EDUCATIVA · AprendIA · CLASE ${lessonOrder}`}
-          variant={lessonOrder === 1 ? "prompt-transformation" : "default"}
-        />
-      )}
+
+      {/* Visual educativa por módulo/clase — solo presentación, sin lógica de acceso */}
+      {(() => {
+        const mt = String(moduleTitle || "").toLowerCase();
+        if (mt.includes("fundamento")) return <Module1LessonVisual lessonOrder={lessonOrder} />;
+        if (mt.includes("contenido") || mt.includes("creación de contenido") || mt.includes("creacion de contenido"))
+          return <Module2LessonVisual lessonOrder={lessonOrder} />;
+        if (mt.includes("productividad") || mt.includes("trabajo"))
+          return <Module3LessonVisual lessonOrder={lessonOrder} />;
+        if (mt.includes("negocio") || mt.includes("marketing"))
+          return <Module4LessonVisual lessonOrder={lessonOrder} />;
+        if (mt.includes("automat") || mt.includes("solucion"))
+          return <Module5LessonVisual lessonOrder={lessonOrder} />;
+        if (mt.includes("monetiz") || mt.includes("proyecto final") || mt.includes("emprend"))
+          return <Module6LessonVisual lessonOrder={lessonOrder} />;
+        // fallback
+        return <Module1LessonVisual lessonOrder={lessonOrder} />;
+      })()}
+
+      {(() => {
+        const modNum = moduleNumberFromTitle(moduleTitle);
+        const practice = getToolPractice(modNum, lessonOrder);
+        if (!practice) return null;
+        return <ToolPracticeDemo data={practice} />;
+      })()}
+
+
+
 
       {Array.isArray(content.contenido) && content.contenido.length > 0 && (
         <section className="space-y-6">

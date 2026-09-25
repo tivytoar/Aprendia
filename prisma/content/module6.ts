@@ -119,6 +119,18 @@ No inventes datos de mercado.`,
       },
       desafio:
         "Elegí UN problema final y completá el framework completo hasta “solución” en una página.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: nicho y problema priorizado.",
+        pasos: [
+          "Definí un caso real relacionado con: nicho y problema priorizado.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «nicho y problema priorizado», no solo apuntes."
+      },
+      mision: "Completá un caso real de «nicho y problema priorizado» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «nicho y problema priorizado» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 nichos explorados",
         "Problemas listados y filtrados",
@@ -225,6 +237,18 @@ No inventes resultados numéricos.`,
       },
       desafio:
         "Redactá en una frase: “Ayudo a [persona] a [resultado] mediante [solución].”",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: habilidad convertida en solución.",
+        pasos: [
+          "Definí un caso real relacionado con: habilidad convertida en solución.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «habilidad convertida en solución», no solo apuntes."
+      },
+      mision: "Completá un caso real de «habilidad convertida en solución» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «habilidad convertida en solución» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Matriz completa",
         "3 soluciones evaluadas",
@@ -340,6 +364,18 @@ Sin promesas de resultados garantizados.`,
       },
       desafio:
         "Escribí la versión “one-pager” de tu servicio en menos de 200 palabras.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: diseño de servicio/producto.",
+        pasos: [
+          "Definí un caso real relacionado con: diseño de servicio/producto.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «diseño de servicio/producto», no solo apuntes."
+      },
+      mision: "Completá un caso real de «diseño de servicio/producto» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «diseño de servicio/producto» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Modelo elegido",
         "Incluye / no incluye definido",
@@ -457,6 +493,18 @@ Entregá 3 versiones: corta (1 línea), media (3 líneas), larga (párrafo).`,
       },
       desafio:
         "Escribí la versión de 1 línea que usarías en la primera frase de un mensaje a un prospecto.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: propuesta de valor comercial.",
+        pasos: [
+          "Definí un caso real relacionado con: propuesta de valor comercial.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «propuesta de valor comercial», no solo apuntes."
+      },
+      mision: "Completá un caso real de «propuesta de valor comercial» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «propuesta de valor comercial» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "5 propuestas generadas",
         "Una final en 3 longitudes",
@@ -567,6 +615,18 @@ Si es demo, dejalo explícito en el título.`,
       },
       desafio:
         "Armá el índice de tu portfolio en una página (secciones + estado de cada una).",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: case study de portfolio.",
+        pasos: [
+          "Definí un caso real relacionado con: case study de portfolio.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «case study de portfolio», no solo apuntes."
+      },
+      mision: "Completá un caso real de «case study de portfolio» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «case study de portfolio» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Estructura de portfolio definida",
         "Al menos 1 caso de estudio",
@@ -698,6 +758,18 @@ Sin garantías de resultado.`,
       },
       desafio:
         "Usá el segundo prompt para convertir tus 3 paquetes en la tabla comparativa de una página. Al terminar la clase debés tener ese archivo (documento, hoja o imagen de tabla) guardado y listo para reutilizar en una conversación de venta real.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: paquetes de oferta.",
+        pasos: [
+          "Definí un caso real relacionado con: paquetes de oferta.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «paquetes de oferta», no solo apuntes."
+      },
+      mision: "Completá un caso real de «paquetes de oferta» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «paquetes de oferta» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 paquetes definidos con entregables distintos entre sí",
         "Diferencias claras (no solo de precio)",
@@ -840,6 +912,18 @@ No inventes cifras de mercado ni prometas que "así se gana X por mes".`,
       },
       desafio:
         "Usá la calculadora de precio piso/objetivo con tus números reales (aunque sean estimados) para tu oferta principal y tus 3 paquetes de la Clase 6. Al terminar debés tener, por escrito, el precio piso y objetivo de cada uno.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: política de precios simple.",
+        pasos: [
+          "Definí un caso real relacionado con: política de precios simple.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «política de precios simple», no solo apuntes."
+      },
+      mision: "Completá un caso real de «política de precios simple» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «política de precios simple» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "3 estructuras evaluadas",
         "Estructura principal elegida",
@@ -960,6 +1044,18 @@ Indicá qué dato del prospecto debería investigar antes de enviar.`,
       },
       desafio:
         "Enviá (o simulá el envío de) 5 mensajes personalizados y registrá aprendizaje.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: plan de outreach a 10 contactos.",
+        pasos: [
+          "Definí un caso real relacionado con: plan de outreach a 10 contactos.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «plan de outreach a 10 contactos», no solo apuntes."
+      },
+      mision: "Completá un caso real de «plan de outreach a 10 contactos» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «plan de outreach a 10 contactos» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "20 prospectos listados",
         "Mensajes personalizables",
@@ -1099,6 +1195,18 @@ Dame:
       },
       desafio:
         "Simulá (por escrito) un diálogo de 8 turnos con un prospecto escéptico.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: propuesta comercial.",
+        pasos: [
+          "Definí un caso real relacionado con: propuesta comercial.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «propuesta comercial», no solo apuntes."
+      },
+      mision: "Completá un caso real de «propuesta comercial» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «propuesta comercial» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Propuesta de 10 secciones",
         "5 objeciones con respuesta ética",
@@ -1219,6 +1327,18 @@ Claro y ejecutable por otra persona.`,
       },
       desafio:
         "Diseñá el checklist de control de calidad que usás antes de enviar cualquier entregable.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: SOP de entrega profesional.",
+        pasos: [
+          "Definí un caso real relacionado con: SOP de entrega profesional.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «SOP de entrega profesional», no solo apuntes."
+      },
+      mision: "Completá un caso real de «SOP de entrega profesional» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «SOP de entrega profesional» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Flujo de entrega definido",
         "3 SOPs documentados",
@@ -1356,6 +1476,18 @@ No prometas un resultado de facturación ni de horas ahorradas exactas.`,
       },
       desafio:
         "Usá el segundo prompt para convertir tu backlog en un plan de escalamiento de 90 días con tus 2 tareas prioritarias. Al terminar la clase debés tener ese plan escrito, con los 3 bloques y sus fechas.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: plan de escala con IA.",
+        pasos: [
+          "Definí un caso real relacionado con: plan de escala con IA.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «plan de escala con IA», no solo apuntes."
+      },
+      mision: "Completá un caso real de «plan de escala con IA» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «plan de escala con IA» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "5 tareas evaluadas",
         "2 prioritarias elegidas",
@@ -1499,6 +1631,18 @@ Sé realista con las horas disponibles.`,
       },
       desafio:
         "Armá el outline de 15 slides de la presentación final del Proyecto 6.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: plan de acción 90 días.",
+        pasos: [
+          "Definí un caso real relacionado con: plan de acción 90 días.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «plan de acción 90 días», no solo apuntes."
+      },
+      mision: "Completá un caso real de «plan de acción 90 días» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «plan de acción 90 días» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Plan 90 días documentado",
         "Métricas definidas",

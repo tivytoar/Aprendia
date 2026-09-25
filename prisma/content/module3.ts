@@ -112,6 +112,18 @@ Al finalizar entregá:
       },
       desafio:
         "Usá el asistente dos mañanas seguidas y mejorá el prompt con al menos dos reglas nuevas basadas en lo que falló.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: IA como asistente profesional diario.",
+        pasos: [
+          "Definí un caso real relacionado con: IA como asistente profesional diario.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «IA como asistente profesional diario», no solo apuntes."
+      },
+      mision: "Completá un caso real de «IA como asistente profesional diario» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «IA como asistente profesional diario» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Definí tu objetivo de uso del asistente",
         "Definí tareas, prioridades y restricciones de un día",
@@ -241,6 +253,18 @@ Si el tiempo no alcanza, reducí el alcance y explicá qué quedó fuera.`,
       },
       desafio:
         "Convertí el mismo objetivo en dos planes: uno ambicioso y uno mínimo viable. Compará qué cortarías primero.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: organización y planificación semanal.",
+        pasos: [
+          "Definí un caso real relacionado con: organización y planificación semanal.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «organización y planificación semanal», no solo apuntes."
+      },
+      mision: "Completá un caso real de «organización y planificación semanal» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «organización y planificación semanal» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Objetivo descompuesto en fases y tareas",
         "Prioridades y dependencias definidas",
@@ -367,6 +391,18 @@ Entregá: asunto + cuerpo.`,
       },
       desafio:
         "Reescribí un correo real tuyo (anonimizado) que haya quedado confuso; compará claridad y longitud.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: correo y comunicación clara.",
+        pasos: [
+          "Definí un caso real relacionado con: correo y comunicación clara.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «correo y comunicación clara», no solo apuntes."
+      },
+      mision: "Completá un caso real de «correo y comunicación clara» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «correo y comunicación clara» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Cinco tipos de correo creados",
         "CTA presente en todos",
@@ -480,6 +516,18 @@ No inventes datos. Si falta información, indicalo explícitamente.`,
       },
       desafio:
         "Convertí el mismo contenido en (a) resumen ejecutivo de 1 página y (b) versión para dirección con foco en decisiones.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: documento profesional estructurado.",
+        pasos: [
+          "Definí un caso real relacionado con: documento profesional estructurado.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «documento profesional estructurado», no solo apuntes."
+      },
+      mision: "Completá un caso real de «documento profesional estructurado» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «documento profesional estructurado» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Documento con las 6 secciones",
         "Sin datos inventados sin marcar",
@@ -593,6 +641,18 @@ No agregues información que no aparezca en el documento.`,
       },
       desafio:
         "Compará dos resúmenes del mismo documento: uno “libre” y uno con el prompt estricto. Anotá diferencias de rigor.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: resumen orientado a decisión.",
+        pasos: [
+          "Definí un caso real relacionado con: resumen orientado a decisión.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «resumen orientado a decisión», no solo apuntes."
+      },
+      mision: "Completá un caso real de «resumen orientado a decisión» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «resumen orientado a decisión» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Resumen estructurado generado",
         "Datos críticos verificados en la fuente",
@@ -703,6 +763,18 @@ No inventes citas ni estadísticas.`,
       },
       desafio:
         "Encontrá una contradicción entre dos fuentes sobre el mismo punto y documentá cómo la resolverías.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: investigación laboral verificada.",
+        pasos: [
+          "Definí un caso real relacionado con: investigación laboral verificada.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «investigación laboral verificada», no solo apuntes."
+      },
+      mision: "Completá un caso real de «investigación laboral verificada» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «investigación laboral verificada» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Estrategia de investigación armada",
         "Hechos vs hipótesis separados",
@@ -837,6 +909,18 @@ Incluí:
       },
       desafio:
         "Prepará agenda + minuta para el mismo tema y verificá que los objetivos de la agenda se reflejen en las decisiones de la minuta.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: minuta de reunión accionable.",
+        pasos: [
+          "Definí un caso real relacionado con: minuta de reunión accionable.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «minuta de reunión accionable», no solo apuntes."
+      },
+      mision: "Completá un caso real de «minuta de reunión accionable» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «minuta de reunión accionable» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Agenda o minuta generada con estructura completa",
         "Sin responsables inventados",
@@ -964,6 +1048,18 @@ Datos:
       },
       desafio:
         "Agregá una columna de costos o margen y pedí un segundo análisis enfocando rentabilidad, no solo volumen.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: tracker o tabla útil.",
+        pasos: [
+          "Definí un caso real relacionado con: tracker o tabla útil.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «tracker o tabla útil», no solo apuntes."
+      },
+      mision: "Completá un caso real de «tracker o tabla útil» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «tracker o tabla útil» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Estructura del dataset descrita",
         "Métricas y anomalías listadas",
@@ -1107,6 +1203,18 @@ Cuando una solicitud esté fuera de tu alcance, indicá claramente la limitació
       },
       desafio:
         "Creá un segundo asistente complementario (ej. comercial + administrativo) y definí cuándo usar cada uno.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: asistente especializado con límites.",
+        pasos: [
+          "Definí un caso real relacionado con: asistente especializado con límites.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «asistente especializado con límites», no solo apuntes."
+      },
+      mision: "Completá un caso real de «asistente especializado con límites» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «asistente especializado con límites» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Asistente con los 7 componentes",
         "Probado con casos típicos y fuera de alcance",
@@ -1222,6 +1330,18 @@ No inventes tareas que no estén en la lista.`,
       },
       desafio:
         "Diseñá el flujo Evento → proceso → IA → revisión → resultado para una de esas 3 tareas.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: SOP + prompt de tarea repetitiva.",
+        pasos: [
+          "Definí un caso real relacionado con: SOP + prompt de tarea repetitiva.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «SOP + prompt de tarea repetitiva», no solo apuntes."
+      },
+      mision: "Completá un caso real de «SOP + prompt de tarea repetitiva» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «SOP + prompt de tarea repetitiva» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "10 tareas en matriz",
         "3 candidatas priorizadas",
@@ -1331,6 +1451,18 @@ Sé realista con el tiempo disponible: [TIEMPO].`,
       },
       desafio:
         "Operá el sistema un día laboral completo y anotá fricciones para la clase 12 / Proyecto 3.",
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: sistema personal de productividad.",
+        pasos: [
+          "Definí un caso real relacionado con: sistema personal de productividad.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «sistema personal de productividad», no solo apuntes."
+      },
+      mision: "Completá un caso real de «sistema personal de productividad» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «sistema personal de productividad» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Flujo de 7 etapas definido",
         "Reglas de entrada y priorización escritas",
@@ -1479,6 +1611,18 @@ Formato general:
 7. Plan del día siguiente
 
 Documentá qué funcionó y qué regla agregarías.`,
+      laboratorio: {
+        objetivo: "Aplicar de forma práctica: asistente de trabajo integrado.",
+        pasos: [
+          "Definí un caso real relacionado con: asistente de trabajo integrado.",
+          "Usá el prompt principal de la clase con tus datos.",
+          "Iterá una vez mejorando claridad o formato.",
+          "Guardá el resultado en tu carpeta del módulo."
+        ],
+        resultado: "Entregable usable sobre «asistente de trabajo integrado», no solo apuntes."
+      },
+      mision: "Completá un caso real de «asistente de trabajo integrado» en esta sesión y dejalo listo para usar fuera del curso.",
+      entregable: "Documento o archivo con el resultado de «asistente de trabajo integrado» + nota de 5 líneas sobre qué ajustarías la próxima vez.",
       checklist: [
         "Prompt maestro personalizado",
         "Jornada simulada ejecutada",
