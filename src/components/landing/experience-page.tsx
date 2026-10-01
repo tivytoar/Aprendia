@@ -303,6 +303,26 @@ export function ExperiencePage() {
                     {CONTACT.email}
                   </a>
                 </li>
+                <li>
+                  <a
+                    href={CONTACT.instagramUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-foreground transition-colors"
+                  >
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={CONTACT.tiktokUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-foreground transition-colors"
+                  >
+                    TikTok
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
